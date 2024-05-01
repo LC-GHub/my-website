@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'OstrichSans';
+    src: local('OstrichSans'), url(./fonts/OstrichSans/OstrichSans-Bold.otf) format('opentype');
+}
+
+.aboutme {
+    background: transparent;;
+}
+.abooutme-header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background: transparent;
+}
+.aboutme-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; /* Set width to auto */
+    height: auto; /* Set height to auto */
+    background: transparent;
+  }
+  
+.aboutme-content p {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    text-align: center;
+    background: transparent;
+    margin-top: 24rem;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+}
