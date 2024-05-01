@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 import App from "./App"
 import AboutMe from "./AboutMe"
+import SkillsCompetencyPage from "./SkillsCompetencyPage";
+import LinkPage from "./LinkPage";
  const rootElement = document.getElementById("root");
  ReactDOM.render(
    <BrowserRouter>
@@ -15,6 +17,8 @@ import AboutMe from "./AboutMe"
     <Routes>
      <Route path="/" Component={App} />
      <Route path="/aboutme" Component={AboutMe} />
+     <Route path="/skills" Component={SkillsCompetencyPage} />
+     <Route path="/links" Component={LinkPage} />
    </Routes>
    </BrowserRouter>,
    rootElement
