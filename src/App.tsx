@@ -65,14 +65,14 @@ const App: React.FC = () => {
               </Button>
             </Col>
             <Col span={6}>
-              <Button style={{ background: 'transparent', width: '100%', height: '100%' }}>
+              <Button style={{ background: 'transparent', width: '100%', height: '100%' }} href='/skills'>
                 <div className='header-component menu-item'>
                   Skills && Competencies
                 </div>
               </Button>
             </Col>
             <Col span={6}>
-              <Button style={{ background: 'transparent', width: '100%', height: '100%' }}>
+              <Button style={{ background: 'transparent', width: '100%', height: '100%' }} href='/links'>
                 <div className='header-component menu-item'>
                   Link
                 </div>
