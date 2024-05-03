@@ -1,0 +1,22 @@
+.scrollable-container {
+    width: 100%; /* Fixed width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.scrollable-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.scrollable-content img {
+    flex-shrink: 0;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
