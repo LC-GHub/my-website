@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'OstrichSans';
+    src: local('OstrichSans'), url(./fonts/OstrichSans/OstrichSans-Bold.otf) format('opentype');
+  }
+.aboutme-content {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 80%;
+    min-width: 120%;
+    max-width: 120%;
+}
+
+.row-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDFA;
+    width: 80%;
+    flex-grow: 1;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding-right: 1rem;
+}
+
+.row-box-header {
+    font-family: 'Poppins';
+    font-size: x-large;
+}
